@@ -13,7 +13,7 @@ import {
 
 function Login() {
   return (
-    <form action="/Questions" method="get">
+    <form action="/Questions" method="post">
       <MDBContainer fluid>
         <MDBRow className="d-flex justify-content-center align-items-center h-100">
           <MDBCol col="12">

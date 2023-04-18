@@ -13,7 +13,7 @@ import {
 
 function Register() {
   return (
-    <form action="/Login" method="get">
+    <form action="/Login" method="post">
       <MDBContainer fluid>
         <MDBRow className="justify-content-center align-items-center m-5">
           <MDBCard>
