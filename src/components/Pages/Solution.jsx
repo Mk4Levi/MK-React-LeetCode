@@ -1,6 +1,7 @@
 //
 import "../css/Solution.css";
 
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 function Solution({ questions }) {
@@ -36,7 +37,7 @@ function Solution({ questions }) {
           ></textarea>
 
           <button type="submit" id="btn">
-            Submit your Solution
+            <Link to={"/Questions/"}>Submit your Solution</Link>
           </button>
         </form>
       </div>
