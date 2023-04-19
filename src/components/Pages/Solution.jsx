@@ -36,9 +36,11 @@ function Solution({ questions }) {
             placeholder="Enter your solution here ..."
           ></textarea>
 
-          <button type="submit" id="btn">
-            <Link to={"/Questions/"}>Submit your Solution</Link>
-          </button>
+          <Link to={"/Questions/"}>
+            <button type="submit" id="btn">
+              Submit your Solution
+            </button>
+          </Link>
         </form>
       </div>
     </div>
