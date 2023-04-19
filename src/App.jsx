@@ -19,7 +19,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Register />} />
+        <Route path="/" element={<Questions questions={Quest} />} />
 
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
