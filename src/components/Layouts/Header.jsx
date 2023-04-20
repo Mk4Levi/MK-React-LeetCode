@@ -39,7 +39,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to={"https://manthan-mk-website.vercel.app/"}
+                to={"https://manthan-mk.vercel.app/"}
                 target="_blank"
               >
                 <b>My Website</b>
