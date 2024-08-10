@@ -27,7 +27,7 @@ function App() {
 
         <Route path="/Questions" element={<Questions questions={Quest} />} />
         <Route
-          path="/questions/:num/"
+          path="/Questions/:num/"
           element={<Solution questions={Quest} />}
         />
       </Routes>

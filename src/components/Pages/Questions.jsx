@@ -16,7 +16,7 @@ function Questions({ questions }) {
 
           {questions.map((quest, i) => (
             <tr>
-              <Link to={"/questions/:" + quest.questNum}>
+              <Link to={"/Questions/:" + quest.questNum}>
                 <td>{quest.title}</td>
               </Link>
               <td className={quest.difficulty}>{quest.acceptance}</td>
